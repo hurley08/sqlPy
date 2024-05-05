@@ -1,0 +1,20 @@
+[project]
+name = "sqlpy"
+version = "0.1.0"
+description = "learning sql + python"
+authors = [
+    {name = "hurley08", email = "intriqet@gmail.com"},
+]
+dependencies = [
+    "sql>=2022.4.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pdm]
+distribution = true
