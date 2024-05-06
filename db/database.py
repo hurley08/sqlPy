@@ -26,7 +26,7 @@ def insert_new_piece(
                                             '{color}')""")
 
 def create_table():
-
+g
 
 
 
@@ -89,19 +89,4 @@ if __name__=='__main__':
     g = c.fetchall()
     create_table()
     commit_and_close()
-    print(g)
-
-
-
-
-def commit_and_close():
-    # Commit canges to db
-    conn.commit()
-    # Close db connection
-    conn.close()
-
-
-if __name__=='__main__':
-    c = connect_cursor()
-    g = c.fetchall()
     print(g)
