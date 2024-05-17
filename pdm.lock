@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:a73e1764bcf951667b46f1f8714b1ee62f143ae620255c7482653f37416859a3"
+content_hash = "sha256:0d7933ec8cfcb5b191f1c509696e0a5eb239582d054e3f408055596adf4f20f3"
 
 [[package]]
 name = "sql"

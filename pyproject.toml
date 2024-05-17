@@ -1,14 +1,14 @@
 [project]
-name = "sqlpy"
-version = "0.1.0"
-description = "learning sql + python"
+name = "sqlPy"
+version = "0.1.2"
+description = "Default template for PDM package"
 authors = [
     {name = "hurley08", email = "intriqet@gmail.com"},
 ]
 dependencies = [
     "sql>=2022.4.0",
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 
